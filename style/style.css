@@ -124,9 +124,9 @@ body {
 
 .six .hat {
   position: absolute;
-  width: 80px;
-  top: -35px;
-  left: 41.5%;
+  top: 20px;
+  width: 110px;
+  left: 42.5%;
   /* transform: scale(0.1); */
 }
 
@@ -235,29 +235,30 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
-    left: 32%;
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    max-width: 80px;
   }
 }
 
 @media screen and (max-width: 500px) {
+  .one {
+    font-size: 3rem;
+  }
+
   .container {
     width: 90%;
   }
@@ -271,17 +272,22 @@ body {
     bottom: -38px;
   }
 
+  .five .idea-5 {
+    margin: 0;
+  }
+
   .idea-5 span {
     display: block;
   }
 
   .idea-6 span {
-    font-size: 10rem;
+    font-size: 7rem;
   }
 
   .six .hat {
-    width: 50px;
-    top: -20px;
+    width: 80px;
+    top: 10px;
+    left: 37%;
   }
 
   .wish-hbd {
@@ -296,4 +302,8 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+}
+
+.wish-text {
+  color: rgb(67, 168, 172);
 }
